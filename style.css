@@ -1,0 +1,195 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 10px 32px;
+} */
+
+#div1{
+    background-color: aqua; 
+    text-decoration: underline; 
+    text-transform: uppercase; 
+    color: red;
+    margin: 16px;
+    padding: 16px;
+    text-align: center;
+    border: 2px solid gray;
+
+   }
+
+   .top{
+
+     background-color: aqua;
+     color: blueviolet;
+     box-sizing: border-box; 
+     margin-bottom: 16px;
+   }
+
+   .bottom
+   {
+    background-color: aqua;
+     color: blueviolet;
+     box-sizing: border-box; 
+     margin-top: 32px;
+   }
+
+   .head1{
+    background-color: blueviolet;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: blanchedalmond;
+
+    margin-bottom: 10px;
+   }
+
+   .head3{
+    margin-bottom: 16px;
+   }
+
+   .head3 .innerHead3
+   {
+       background-color: chartreuse;
+       color: blue;
+       text-decoration: line-through;
+   }
+
+   .con 
+   {
+        margin-top: 10px;
+
+       p{
+        background-color:brown;
+        padding: 16px;
+       }
+       span{
+        background-color: aqua;
+        padding: 16px;
+        display: block;
+       }
+
+   }
+
+   .text{
+    
+       padding: 16px;
+       background-color: aqua;
+       text-align: center;
+       width: 280px;
+       margin: auto;
+       margin-top: 20px;
+
+   }
+
+
+
+   .text-parent{
+     font-size: 16px;
+
+   }
+    .text-child{ 
+        font-size: 2em;
+        width: 300em;
+   }
+   
+   .btn{
+    display: block;
+    padding: 1em;
+    width: 8em;
+    border-radius: 8px;
+    border: none;
+    margin: 10px auto;
+    font-size: 16px;
+    
+    background-color: aqua;
+   }
+
+   .btn-small{
+    background-color: aqua;
+    padding: 10px;
+    
+    
+   }
+
+   .container{
+    max-height: 300px;
+    background-color: green;
+    overflow: scroll;
+    margin-left: 25px;
+    
+    
+   
+   }
+   
+   .container2 ol{
+     background-color: aqua;
+   }
+
+   .container2 ul:first-child{
+    background-color: blueviolet;
+   }
+
+   .container2 
+   ul:nth-child(3) {
+    background-color:brown;
+
+    li:nth-of-type(2)
+    {
+      background-color: blue;
+        width: fit-content;
+        
+    }
+    
+    li:nth-of-type(2)::marker
+    {
+        
+        color: blue; 
+        
+        
+    }
+
+    
+   }
+
+   .cont1 ul{
+       background-color: greenyellow;
+    }
+    
+    .cont1>ul{
+       background-color: blueviolet;
+   }
+
+   .cont1+ul{
+    background-color: rgb(195, 195, 36);
+   }
+   
+   .flex{
+    background-color: aqua;
+    display: flex;
+
+    width: 250px;
+    height: 650px;
+    flex-wrap: wrap;
+    
+   }
+
+   .child{
+    
+    background-color: blueviolet;
+
+    border: 1px solid red;
+    margin: 5px;
+     
+    width: 60px;
+    height: 60px;
+
+   }
+
+   .child-2{
+    flex-grow: 1;
+   }
+
