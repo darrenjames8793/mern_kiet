@@ -1,0 +1,31 @@
+[
+    {
+        "name": "test",
+        "age": 21,
+        "work": "developer",
+        "mobile": "1234567890",
+        "email": "darren@example.com",
+        "address": "123 Main St, City",
+        "salary": 60000,
+        "id": 1
+    },
+    {
+        "name": "changed",
+        "age": 21,
+        "work": "developer",
+        "mobile": "1234567890",
+        "email": "darren@example.com",
+        "address": "123 Main St, City",
+        "salary": 60000
+    },
+    {
+        "name": "test3",
+        "age": 21,
+        "work": "developer",
+        "mobile": "1234567890",
+        "email": "darren@example.com",
+        "address": "123 Main St, City",
+        "salary": 60000,
+        "id": 3
+    }
+]

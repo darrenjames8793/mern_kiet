@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .product-card {
+            border: 5px solid black;
+            border-radius: 16px;
+            background-color: aqua;
+
+            margin: 40px;
+
+            padding: 60px;
+            max-width: 700px;
+            min-height: 400px;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background-color: blanchedalmond;
+        }
+
+        img {
+            border: 3px solid black;
+            border-radius: 8px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+
+    <!-- <form action='/product'>
+        <input type="text" name="productName">
+        <button type="submit">search</button>
+        </form> -->
+
+    <div class='product-card'>
+        <h2>$TITLE$</h2>
+        <img src="$img_src$" />
+        <br>
+        <a href="$product_link$">
+            <h3> more info </h3>
+        </a>
+    </div>
+</body>
+
+</html>

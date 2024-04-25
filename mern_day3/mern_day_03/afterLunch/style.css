@@ -1,0 +1,28 @@
+form{
+
+    background-color: cornflowerblue;
+
+    padding: 30px;
+
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+#heading{
+    text-align: center;
+}
+
+input{
+    /* display: block;
+    margin: auto; */
+}
+
+div{
+    background-color: rgb(54, 235, 174);
+    padding: 50px;
+    display: block;
+    margin: auto;
+    width: 600px;
+}
+
